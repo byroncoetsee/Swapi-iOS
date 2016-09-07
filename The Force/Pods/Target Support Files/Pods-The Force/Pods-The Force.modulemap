@@ -1,0 +1,6 @@
+framework module Pods_The_Force {
+  umbrella header "Pods-The Force-umbrella.h"
+
+  export *
+  module * { export * }
+}

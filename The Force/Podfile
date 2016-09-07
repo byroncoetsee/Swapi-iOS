@@ -1,0 +1,26 @@
+target 'The Force' do
+  use_frameworks!
+
+  # Pods for The Force
+
+  pod 'AlamofireSwiftyJSON'
+  pod 'RealmSwift'
+  pod 'ChameleonFramework/Swift'
+  pod 'PINRemoteImage'
+  
+
+  target 'The ForceTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+
+
+
+
+  target 'The ForceUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
