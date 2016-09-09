@@ -28,6 +28,7 @@
 		759C8CA91D787FE200700D4F /* Sub_UISegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759C8CA21D787FE200700D4F /* Sub_UISegmentedControl.swift */; };
 		759C8CAA1D787FE200700D4F /* Sub_UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759C8CA31D787FE200700D4F /* Sub_UITextField.swift */; };
 		759C8CAB1D787FE200700D4F /* Sub_UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759C8CA41D787FE200700D4F /* Sub_UIViewController.swift */; };
+		75D8585F1D81655B0023E9A6 /* Details_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8585E1D81655B0023E9A6 /* Details_Cell.swift */; };
 		C91233105CF5C91EA47D59D6 /* Pods_The_Force.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B4D8FE6EC63252E5CF2570 /* Pods_The_Force.framework */; };
 		CC776DE278F6F86C31BF2206 /* Pods_The_ForceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D30506A18614B7EFD4CA78 /* Pods_The_ForceTests.framework */; };
 /* End PBXBuildFile section */
@@ -81,6 +82,7 @@
 		759C8CA21D787FE200700D4F /* Sub_UISegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sub_UISegmentedControl.swift; sourceTree = "<group>"; };
 		759C8CA31D787FE200700D4F /* Sub_UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sub_UITextField.swift; sourceTree = "<group>"; };
 		759C8CA41D787FE200700D4F /* Sub_UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sub_UIViewController.swift; sourceTree = "<group>"; };
+		75D8585E1D81655B0023E9A6 /* Details_Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Details_Cell.swift; sourceTree = "<group>"; };
 		91CCDE27B1F0142E666DCD87 /* Pods-The Force.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Force.release.xcconfig"; path = "Pods/Target Support Files/Pods-The Force/Pods-The Force.release.xcconfig"; sourceTree = "<group>"; };
 		9301CCE3137E665CB2D27AF1 /* Pods-The ForceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The ForceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-The ForceUITests/Pods-The ForceUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C5D30506A18614B7EFD4CA78 /* Pods_The_ForceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_ForceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				753393561D80B9430027B638 /* Details_VC.swift */,
+				75D8585E1D81655B0023E9A6 /* Details_Cell.swift */,
 			);
 			name = "Details Modal";
 			sourceTree = "<group>";
@@ -508,6 +511,7 @@
 			files = (
 				759C8C6D1D78728900700D4F /* Main_VC.swift in Sources */,
 				759C8C6B1D78728900700D4F /* AppDelegate.swift in Sources */,
+				75D8585F1D81655B0023E9A6 /* Details_Cell.swift in Sources */,
 				753393571D80B9430027B638 /* Details_VC.swift in Sources */,
 				751C593C1D802E5600A41148 /* Landing_VC.swift in Sources */,
 				759C8CA51D787FE200700D4F /* Sub_UIButton.swift in Sources */,

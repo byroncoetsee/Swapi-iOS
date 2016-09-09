@@ -8,6 +8,7 @@
 
 import UIKit
 import RealmSwift
+import SwiftyJSON
 
 class Details_VC: UIViewController {
 
@@ -46,32 +47,33 @@ class Details_VC: UIViewController {
 	func setupHeader() {
 		switch object {
 		case is The_Force.Film:
-			lblHeading.text = object.valueForKey("name") as! String
+			lblHeading.text! = object.valueForKey("name") as! String
 			lblSubheading.text = "Film"
 			break
 			
 		case is The_Force.Character:
-			lblHeading.text = object.valueForKey("name") as! String
+			lblHeading.text! = object.valueForKey("name") as! String
 			lblSubheading.text = "Character"
+//			let objJson = object.toDictionary()
 			break
-			
+		
 		case is The_Force.Species:
-			lblHeading.text = object.valueForKey("name") as! String
+			lblHeading.text! = object.valueForKey("name") as! String
 			lblSubheading.text = "Species"
 			break
 			
 		case is The_Force.Vehicle:
-			lblHeading.text = object.valueForKey("name") as! String
+			lblHeading.text! = object.valueForKey("name") as! String
 			lblSubheading.text = "Vehicle"
 			break
 			
 		case is The_Force.Starship:
-			lblHeading.text = object.valueForKey("name") as! String
+			lblHeading.text! = object.valueForKey("name") as! String
 			lblSubheading.text = "Starship"
 			break
 			
 		case is The_Force.Planet:
-			lblHeading.text = object.valueForKey("name") as! String
+			lblHeading.text! = object.valueForKey("name") as! String
 			lblSubheading.text = "Planet"
 			break
 			

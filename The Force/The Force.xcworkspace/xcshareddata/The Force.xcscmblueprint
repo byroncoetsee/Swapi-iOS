@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "484EC0BE4ED931872C21032FD6E8D8F7BEFC547B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "484EC0BE4ED931872C21032FD6E8D8F7BEFC547B" : 0,
+    "DCD14167E88C2C97DDC6A059CB5F7975C93FA4DB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CA393D20-4095-4AA4-B4B7-328F43445661",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "484EC0BE4ED931872C21032FD6E8D8F7BEFC547B" : "Swapi\/",
+    "DCD14167E88C2C97DDC6A059CB5F7975C93FA4DB" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "The Force",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "The Force\/The Force.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/byroncoetsee\/Swapi-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "484EC0BE4ED931872C21032FD6E8D8F7BEFC547B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/byroncoetsee\/Programming.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DCD14167E88C2C97DDC6A059CB5F7975C93FA4DB"
+    }
+  ]
+}

@@ -27,32 +27,32 @@ class Result_Cell: UITableViewCell {
 	func setup(object: Object) {
 		switch object {
 		case is The_Force.Film:
-			lblMainText.text = object.valueForKey("name") as! String
+			lblMainText.text! = object.valueForKey("name") as! String
 			lblType.text = "Film"
 			break
 			
 		case is The_Force.Character:
-			lblMainText.text = object.valueForKey("name") as! String
+			lblMainText.text! = object.valueForKey("name") as! String
 			lblType.text = "Character"
 			break
 			
 		case is The_Force.Species:
-			lblMainText.text = object.valueForKey("name") as! String
+			lblMainText.text! = object.valueForKey("name") as! String
 			lblType.text = "Species"
 			break
 			
 		case is The_Force.Vehicle:
-			lblMainText.text = object.valueForKey("name") as! String
+			lblMainText.text! = object.valueForKey("name") as! String
 			lblType.text = "Vehicle"
 			break
 			
 		case is The_Force.Starship:
-			lblMainText.text = object.valueForKey("name") as! String
+			lblMainText.text! = object.valueForKey("name") as! String
 			lblType.text = "Starship"
 			break
 			
 		case is The_Force.Planet:
-			lblMainText.text = object.valueForKey("name") as! String
+			lblMainText.text! = object.valueForKey("name") as! String
 			lblType.text = "Planet"
 			break
 			
